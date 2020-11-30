@@ -1,7 +1,6 @@
-const username = {
-    name = 'Max',
-    greet() {
-        console.log('Hi, my name is ' + this.name);
-    }
-};
-console.log(username)
+const hobbies = ["sports", "Cooking"];
+for (let hobby of hobbies) {
+  console.log(hobby);
+}
+console.log(hobbies.map((hobby) => "Hobby:" + hobby));
+console.log(hobbies);
